@@ -10,6 +10,7 @@ export default {
       colors: {
         primary: '#15E5E5',
         secondary: '#5E8B8E',
+        'primary-hover': '#41CECF',
       }
     },
   },
