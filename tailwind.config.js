@@ -2,18 +2,17 @@
 export default {
   content: [
     "./index.html",
-    "./src/*.{js,jsx}",
-    "./public/tech-stack/*.svg"
+    "./src/**/*.{vue,js,jsx}",
+    "./public/tech-stack/*.svg",
   ],
   theme: {
     extend: {
       colors: {
-        primary: '#15E5E5',
-        secondary: '#5E8B8E',
-        'primary-hover': '#41CECF',
-      }
+        primary: "#15E5E5",
+        secondary: "#5E8B8E",
+        "primary-hover": "#41CECF",
+      },
     },
   },
   plugins: [],
-}
-
+};
